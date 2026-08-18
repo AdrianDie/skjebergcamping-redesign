@@ -4,8 +4,7 @@
   --navy-deep: #142449;
   --navy-soft: #2c4a86;
   --terracotta: #C05530;
-  --olive: #627D47;
-  --olive-text: #4e6439;
+  --teal: #2B7A70;
   --red: #b20000;
   --ink: #33363d;
   --paper: #fcfbf6;
@@ -89,10 +88,10 @@ p { margin: 0 0 1em; color: var(--ink); }
 .btn-ghost:hover { background: rgba(255,255,255,0.22); }
 .btn-outline {
   background: transparent;
-  color: var(--olive-text);
-  border: 1.5px solid var(--olive);
+  color: var(--teal);
+  border: 1.5px solid var(--teal);
 }
-.btn-outline:hover { background: var(--olive); color: var(--white); }
+.btn-outline:hover { background: var(--teal); color: var(--white); }
 .btn-block { width: 100%; justify-content: center; }
 .arrow { transition: transform 0.3s ease; display: inline-block; }
 .btn:hover .arrow { transform: translateX(4px); }
@@ -323,8 +322,8 @@ p { margin: 0 0 1em; color: var(--ink); }
   text-align: center;
   font-size: 15.5px;
   color: var(--navy);
-  background: rgba(98,125,71,0.1);
-  border: 1px solid rgba(98,125,71,0.25);
+  background: rgba(43,122,112,0.1);
+  border: 1px solid rgba(43,122,112,0.25);
   border-radius: var(--radius-md);
   padding: 18px 26px;
 }
@@ -398,7 +397,7 @@ p { margin: 0 0 1em; color: var(--ink); }
 }
 .form-row input:focus, .form-row textarea:focus {
   outline: none;
-  border-color: var(--olive);
+  border-color: var(--teal);
 }
 .contact-form .btn { margin-top: 6px; }
 
@@ -448,7 +447,7 @@ p { margin: 0 0 1em; color: var(--ink); }
   bottom: 40px; left: -60px;
   width: 160px; height: 160px;
   border-radius: 50%;
-  background: rgba(98,125,71,0.08);
+  background: rgba(43,122,112,0.08);
   z-index: 0;
   pointer-events: none;
 }
