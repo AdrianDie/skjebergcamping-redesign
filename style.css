@@ -243,7 +243,11 @@ p { margin: 0 0 1em; color: var(--ink); }
   font-weight: 600;
   max-width: 16ch;
 }
-.hero h1 .accent { color: var(--plum-light); font-style: italic; }
+.hero h1 .accent {
+  color: var(--plum-light);
+  font-style: italic;
+  text-shadow: 0 2px 18px rgba(15,25,50,0.85), 0 1px 4px rgba(15,25,50,0.9);
+}
 .hero-lead {
   color: rgba(255,255,255,0.88);
   font-size: clamp(16px, 2vw, 19px);
