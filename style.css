@@ -424,9 +424,9 @@ p { margin: 0 0 1em; color: var(--ink); }
   justify-content: space-between;
   gap: 10px;
   font-size: 13.5px;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.8);
 }
-.footer-meta a { color: rgba(255,255,255,0.75); }
+.footer-meta a { color: rgba(255,255,255,0.95); }
 .footer-meta a:hover { color: var(--white); }
 
 /* ---------- Decorative shapes (disciplined: max 2-3) ---------- */
