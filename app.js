@@ -4,7 +4,6 @@
   var mobileMenu = document.getElementById('mobileMenu');
   var mobileMenuClose = document.getElementById('mobileMenuClose');
   var mobileScrim = document.getElementById('mobileScrim');
-  var contactForm = document.getElementById('contactForm');
 
   function onScroll() {
     if (window.scrollY > 24) {
@@ -34,21 +33,6 @@
   document.querySelectorAll('.mobile-nav a, .mobile-menu-footer a').forEach(function (a) {
     a.addEventListener('click', closeMenu);
   });
-
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var btn = contactForm.querySelector('button[type="submit"]');
-      var original = btn.textContent;
-      btn.textContent = 'Takk for din henvendelse!';
-      btn.disabled = true;
-      setTimeout(function () {
-        btn.textContent = original;
-        btn.disabled = false;
-        contactForm.reset();
-      }, 2600);
-    });
-  }
 
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
