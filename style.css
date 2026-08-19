@@ -428,8 +428,8 @@ p { margin: 0 0 1em; color: var(--ink); }
   justify-content: space-between;
   gap: 10px;
   font-size: 13.5px;
-  color: rgba(255,255,255,0.96);
 }
+.footer-meta p { color: rgba(255,255,255,0.85); }
 .footer-meta a { color: var(--white); }
 .footer-meta a:hover { color: var(--white); }
 
